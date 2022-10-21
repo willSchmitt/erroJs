@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+#changeBg {
+  background-color: rgb(162, 161, 161);
+
+  width: 40rem; 
+  padding: 7rem;
+  margin: 0 auto;
+
+  border-radius: 2rem;
+}
+
+form h1 {
+  margin-bottom: 3rem;
+
+  font-weight: bold;
+  font-size: 2.7rem;
+
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+form .emailForm {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  max-width: 20rem;
+
+  margin-bottom: 1.5rem;
+}
+
+form .emailForm label {
+  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+form .emailForm input {
+  height: 3.5rem;
+
+  border-radius: .4rem;
+  border: none;
+  cursor: pointer;
+
+  padding: 1rem;
+}
+form .emailForm input:hover {
+  border: 1px solid rgb(32, 142, 7);
+}
+
+form .passwordForm {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  max-width: 20rem;
+
+  margin-bottom: 1.5rem;
+}
+
+form .passwordForm label {
+  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+form .passwordForm input {
+  height: 3.5rem;
+
+  border-radius: .4rem;
+  border: none;
+  cursor: pointer;
+
+  padding: 1rem;
+}
+
+form .passwordForm input:hover {
+  border: 1px solid rgb(24, 110, 4);
+}
+
+form .btnForm {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  width: 15rem;
+  height: 3.5rem;
+  margin-left: 2.3rem;
+
+  border: none;
+  border-radius: .8rem;
+  color: black;
+  background-color: rgb(148, 145, 142);
+
+  cursor: pointer;
+}
+
+form .btnForm:hover {
+  background-color: rgb(107, 105, 104);
+  border: 2px solid rgb(60, 59, 58);;
+}
+
+/* ------------------------------- */
+#changeBgBlack {
+  background-color: rgb(90, 56, 56);
+
+  width: 40rem; 
+  padding: 7rem;
+  margin: 0 auto;
+
+  border-radius: 2rem;
+
+  opacity: 0;
+  visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  margin-left: 52rem;
+}
+
+#changeBgBlack.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+#changeBgBlack h1 {
+  margin-bottom: 3rem;
+
+  font-weight: bold;
+  font-size: 2.7rem;
+
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  color: white;
+}
+
+#changeBgBlack .emailForm {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  max-width: 20rem;
+
+  margin-bottom: 1.5rem;
+}
+
+#changeBgBlack .emailForm label {
+  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  color: white;
+}
+
+#changeBgBlack .emailForm input {
+  height: 3.5rem;
+
+  border-radius: .4rem;
+  border: none;
+  cursor: pointer;
+
+  padding: 1rem;
+}
+#changeBgBlack .emailForm input:hover {
+  border: 1px solid rgb(32, 142, 7);
+}
+
+#changeBgBlack .passwordForm {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  max-width: 20rem;
+
+  margin-bottom: 1.5rem;
+}
+
+#changeBgBlack .passwordForm label {
+  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  color: white;
+}
+
+#changeBgBlack .passwordForm input {
+  height: 3.5rem;
+
+  border-radius: .4rem;
+  border: none;
+  cursor: pointer;
+
+  padding: 1rem;
+}
+
+#changeBgBlack .passwordForm input:hover {
+  border: 1px solid rgb(236, 106, 0);
+}
+
+#changeBgmBlack .btnForm {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  width: 15rem;
+  height: 3.5rem;
+  margin-left: 2.3rem;
+
+  border: none;
+  border-radius: .8rem;
+  color: white;
+  background-color: rgb(148, 145, 142);
+
+  cursor: pointer;
+}
+
+#changeBgBlack .btnForm:hover {
+  background-color: rgb(107, 105, 104);
+  border: 2px solid rgb(60, 59, 58);;
+}
